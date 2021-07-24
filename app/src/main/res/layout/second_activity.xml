@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="3"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="3"
+        android:hint="Surname"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="3"
+        android:hint="Phone"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="3"
+        android:hint="Password"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="3"
+        android:hint="Email"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="4"
+        android:hint="Birthday"/>
+
+</LinearLayout>
